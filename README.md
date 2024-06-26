@@ -25,3 +25,5 @@ This documentation details the Development API endpoints for user authentication
   "msg": "Invalid token",
   "data": []
 }
+
+## Login
