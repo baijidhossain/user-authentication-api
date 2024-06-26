@@ -23,9 +23,9 @@ This documentation details the Development API endpoints for user authentication
 {
   "error": 1,
   "msg": "Invalid token",
-  "data": []
+  "data": [] 
 }
-
+```json
 ## 5. Login
 
 **Endpoint:** `POST <base_url>/login`
