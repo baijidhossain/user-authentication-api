@@ -159,5 +159,10 @@ Authorization: Bearer token
 ### Description:
 Change the password of the authenticated user.
 
+### Request Headers
 
+| Header       | Type   | Description       |
+|--------------|--------|-------------------|
+| Authorization | string | `Bearer <access_token>`|
+| Content-Type | string | application/json  |
 
