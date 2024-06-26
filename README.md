@@ -166,3 +166,34 @@ Change the password of the authenticated user.
 | Authorization | string | `Bearer <access_token>`|
 | Content-Type | string | application/json  |
 
+### Request Body
+``` json
+{
+  "current_password": "password1",
+  "new_password": "password2"
+  "confirm_password": "password2"
+}
+```
+
+
+### Response
+### Success
+``` json
+{
+  "error": "0",
+  "msg": "Password successfully updated"
+  "data": []
+}
+```
+
+
+### Response
+### Error
+```json
+{
+  "error": "1",
+  "msg": "Unauthorised access"
+  "data": []
+}
+```
+
