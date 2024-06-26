@@ -145,3 +145,19 @@ Retrieve the details of the authenticated user.
 }
 ```
 
+# Password Change
+## Endpoint
+`POST <base_url>/passwordchange`
+
+
+You should include an Authorization token in the request header for this endpoint. This Bearer token, obtained after logging in, is necessary to modify the user's password.
+Authorization: Bearer token
+
+
+`Example: Authorization: Bearer xo1gAl1E5NhQL2nPSC8bIObIcwAfd/EJ/WXjt/OIhPQ=`
+
+### Description:
+Change the password of the authenticated user.
+
+
+
