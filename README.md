@@ -35,8 +35,7 @@ Authenticate a user and obtain an access token.
 | Content-Type | string | application/json  |
 
 ### Request Body
-
-
+```json
 {
   "email": "user1@gmail.com",
   "password": "user1@gmail.com"
