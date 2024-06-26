@@ -61,6 +61,16 @@ Authenticate a user and obtain an access token.
     "token": "xo1gAl1E5NhQL2nPSC8bIObIcwAfd/EJ/WXjt/OIhPQ="
   }
 }
+```
 
+### Response
+### Error
+
+```json
+{
+  "error": "1",
+  "msg": "Invalid email or password"
+  "data": []
+}
 ```
 
