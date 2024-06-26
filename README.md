@@ -90,4 +90,4 @@ Retrieve the details of the authenticated user.
 
 | Header       | Type   | Description       |
 |--------------|--------|-------------------|
-| Content-Type | string | application/json  |
+| Authorization | string | aBearer <token>  |
