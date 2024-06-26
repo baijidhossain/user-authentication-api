@@ -46,4 +46,5 @@ Authenticate a user and obtain an access token.
   "email": "user1@gmail.com",
   "password": "user1@gmail.com"
 }
+```
 - `There are 20 user credentials like user1@gmail.com, user2@gmail.com, user3@gmail.com, ….. user20@gmail.com and the password is the same as the email for login.`
