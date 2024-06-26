@@ -48,3 +48,19 @@ Authenticate a user and obtain an access token.
 }
 ```
 `There are 20 user credentials like user1@gmail.com, user2@gmail.com, user3@gmail.com, ….. user20@gmail.com and the password is the same as the email for login.`
+
+
+### Response
+### Success
+
+```json
+{
+  "error": "0",
+  "msg": "success"
+  "data": {
+    "token": "xo1gAl1E5NhQL2nPSC8bIObIcwAfd/EJ/WXjt/OIhPQ="
+  }
+}
+
+```
+
