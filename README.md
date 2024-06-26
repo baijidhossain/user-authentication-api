@@ -19,13 +19,8 @@ This documentation details the Development API endpoints for user authentication
 - **msg (string)**: A descriptive error message.
 
 ### Example Error Response
-```json
-{
-  "error": 1,
-  "msg": "Invalid token",
-  "data": [] 
-}
-```json
+
+
 ## 5. Login
 
 **Endpoint:** `POST <base_url>/login`
@@ -41,7 +36,7 @@ Authenticate a user and obtain an access token.
 
 ### Request Body
 
-```json
+
 {
   "email": "user1@gmail.com",
   "password": "user1@gmail.com"
