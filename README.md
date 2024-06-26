@@ -74,3 +74,13 @@ Authenticate a user and obtain an access token.
 }
 ```
 # 5. Details
+
+Endpoint
+**Endpoint:** `Get <base_url>/details`
+
+
+You should include an Authorization token in the request header for this endpoint. This Bearer token, obtained after logging in, is necessary to retrieve user details.
+
+##### Authorization: Bearer token
+
+`Example: Authorization: Bearer xo1gAl1E5NhQL2nPSC8bIObIcwAfd/EJ/WXjt/OIhPQ=`
