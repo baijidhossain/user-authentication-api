@@ -92,11 +92,56 @@ Retrieve the details of the authenticated user.
 |--------------|--------|-------------------|
 | Authorization | string | `Bearer <token>` |
 
-### Request Body
+#### Response
+#### Success
+```json
+
+{
+  "error": "0",
+  "msg": "success"
+  "data": {
+    "info": {
+       "Name": "success"
+       "email": "user1@gmail.com"
+       "avatar": "https://i.ibb.co/C9m1p0C/profile-picture.png"
+       "phone": "01775051603"
+       "birth_date": "1990-07-17T03:18:31.177769-04:00"
+       "address": "Gulshan, Dhaka"
+    },
+    "hobbies": {
+        {
+          "Name": "Cricket"
+          "image": "https://i.ibb.co/JjGWDjn/cricket.png"
+        },
+        {
+          "Name": "Traveling"
+          "image": "https://i.ibb.co/w4vGSVQ/traveling.png"
+        },
+        {
+          "Name": "Cycling"
+          "image": "https://i.ibb.co/YZCkQfW/cycling.png"
+        },
+        {
+          "Name": "Gardening"
+          "image": "https://i.ibb.co/GMpKrdb/gardening.png"
+        }
+     },
+    "skills": [
+       "Flutter",
+       "Dart",
+       "PHP",
+       "Python"
+    ]
+   }
+}
+```
+#### Response
+#### Error
 ```json
 {
-  "email": "user1@gmail.com",
-  "password": "user1@gmail.com"
+  "error": "1",
+  "msg": "Invalid token"
+  "data": []
 }
 ```
 
