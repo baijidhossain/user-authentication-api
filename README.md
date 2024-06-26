@@ -73,4 +73,4 @@ Authenticate a user and obtain an access token.
   "data": []
 }
 ```
-
+# 5. Details
