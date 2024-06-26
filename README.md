@@ -26,4 +26,24 @@ This documentation details the Development API endpoints for user authentication
   "data": []
 }
 
-## Login
+## 5. Login
+
+**Endpoint:** `POST <base_url>/login`
+
+**Description:**
+Authenticate a user and obtain an access token.
+
+### Request Headers
+
+| Header       | Type   | Description       |
+|--------------|--------|-------------------|
+| Content-Type | string | application/json  |
+
+### Request Body
+
+```json
+{
+  "email": "user1@gmail.com",
+  "password": "user1@gmail.com"
+}
+
