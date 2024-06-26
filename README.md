@@ -84,3 +84,10 @@ You should include an Authorization token in the request header for this endpoin
 ##### Authorization: Bearer token
 
 `Example: Authorization: Bearer xo1gAl1E5NhQL2nPSC8bIObIcwAfd/EJ/WXjt/OIhPQ=`
+
+#### Description
+Retrieve the details of the authenticated user.
+
+| Header       | Type   | Description       |
+|--------------|--------|-------------------|
+| Content-Type | string | application/json  |
