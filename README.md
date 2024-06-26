@@ -19,7 +19,12 @@ This documentation details the Development API endpoints for user authentication
 - **msg (string)**: A descriptive error message.
 
 ### Example Error Response
-
+```json
+{
+  "error": 1,
+  "msg": "Invalid token",
+  "data": [] 
+}
 
 ## 5. Login
 
