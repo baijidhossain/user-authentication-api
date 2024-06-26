@@ -91,3 +91,12 @@ Retrieve the details of the authenticated user.
 | Header       | Type   | Description       |
 |--------------|--------|-------------------|
 | Authorization | string | `Bearer <token>` |
+
+### Request Body
+```json
+{
+  "email": "user1@gmail.com",
+  "password": "user1@gmail.com"
+}
+```
+
